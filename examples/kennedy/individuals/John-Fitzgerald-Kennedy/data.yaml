@@ -11,5 +11,5 @@ death:
   place: Dallas, Texas, U.S.
   cause: assassination
 partnerIds:
-  ## [Jacqueline Bouvier](https://github.com/ameros/genyaml/tree/main/examples/kennedy/individuals/Jacqueline-Bouvier)
+  ## [Jacqueline Bouvier](../Jacqueline-Bouvier)
   - F1
