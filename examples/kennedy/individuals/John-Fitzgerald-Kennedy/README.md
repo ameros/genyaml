@@ -11,6 +11,5 @@
   - place: Dallas, Texas, U.S.
   - cause: assassination
 - partnerIds:
-  ## [Jacqueline Bouvier](../Jacqueline-Bouvier)
-  ### [F1](../../families/F1)
+  ## [Jacqueline Bouvier](../../families/F1)
   - F1
