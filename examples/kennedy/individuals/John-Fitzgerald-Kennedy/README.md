@@ -11,5 +11,5 @@
   - place: Dallas, Texas, U.S.
   - cause: assassination
 - partners:
-  # [Jacqueline Bouvier](https://github.com/ameros/genyaml/tree/main/examples/kennedy/individuals/Jacqueline-Bouvier)
+  ## [Jacqueline Bouvier](https://github.com/ameros/genyaml/tree/main/examples/kennedy/individuals/Jacqueline-Bouvier)
   - F1
