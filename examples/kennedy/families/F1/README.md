@@ -3,7 +3,7 @@
   - date: 12 SEP 1953
   - place: Newport, Rhode Island
 - partnerIds:
-  ## [Jacqueline Bouvier](../../individuals/John-Fitzgerald-Kennedy)
+  ## [John Fitzgerald Kennedy](../../individuals/John-Fitzgerald-Kennedy)
   - I1
   ## [Jacqueline Bouvier](../../individuals/Jacqueline-Bouvier)
   - I2
