@@ -1,1 +1,12 @@
-# genyaml
+# John Fitzgerald Kennedy
+- id: I1
+- legalFullName: John Fitzgerald Kennedy
+- normalShortName: John F. Kennedy
+- otherKnownNames: [JFK, John Kennedy]
+- birth:
+  - date: 27 MAY 1917
+  - place: Brookline, Massachusetts, U.S.
+- death:
+  - date: 22 NOV 1963
+  - place: Dallas, Texas, U.S.
+  - cause: assassination
