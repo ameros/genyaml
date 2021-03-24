@@ -12,4 +12,5 @@
   - cause: assassination
 - partnerIds:
   ## [Jacqueline Bouvier](../Jacqueline-Bouvier)
+  ### [F1](../../families/F1)
   - F1
