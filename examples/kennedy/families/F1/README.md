@@ -1,13 +1,9 @@
-# Jacqueline Kennedy Onassis
-- id: I2
-- legalFullName: Jacqueline Kennedy Onassis
-- normalShortName: Jacqueline Onassis
-- otherKnownNames: [Jacqueline Kennedy, Jacqueline Onassis]
-- birth:
-  - date: 28 JUL 1929
-  - place: Southampton, New York, U.S.
-  - legalFullName: Jacqueline Lee Bouvier
-- death:
-  - date: 19 MAY 1994
-  - place: Manhattan, New York City, U.S.
-  - cause: Non-Hodgkin lymphoma
+- id: F1
+- marriage:
+  - date: 12 SEP 1953
+  - place: Newport, Rhode Island
+- partnerIds:
+  ## [Jacqueline Bouvier](../../individuals/John-Fitzgerald-Kennedy)
+  - I1
+  ## [Jacqueline Bouvier](../../individuals/Jacqueline-Bouvier)
+  - I2
