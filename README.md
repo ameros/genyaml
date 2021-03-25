@@ -87,6 +87,15 @@ otherKnownNames: [The Artist, Joey Coco, Jamie Starr]
 |             | normalShortName | string               |        |
 |             | otherKnownNames | list of strings      |        |
 
+By the way, I really think that a maiden name could be written as `legalFullName` but under `birth` like:
+
+```yaml
+birth:
+  date: 28 JUL 1929
+  place: Southampton, New York, U.S.
+  legalFullName: Jacqueline Lee Bouvier
+```
+
 ## Store in folders
 Working comfortably on a family tree is not only a human-readable file, but also a well-organized storage of data. We could use a specific folder structure for this. In each such folder, we could store a piece of data about a specific person or family. Simple tooling would make it possible to produce one file from all folders. The proposal is to reflect the relations in such folders per family tree:
 
