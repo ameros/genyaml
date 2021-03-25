@@ -96,3 +96,4 @@ Working comfortably on a family tree is not only a human-readable file, but also
 and place there all particular files with kind of _symlinks_ to be able to traverse the tree (folders) accordingly to relation structure.
 
 ## YAML to MARKDOWN
+While we're here, why not use GitHub with Markdown files to conveniently navigate the tree 🤔
