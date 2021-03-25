@@ -11,8 +11,6 @@
   - date: 19 MAY 1994
   - place: Manhattan, New York City, U.S.
   - cause: Non-Hodgkin lymphoma
-- partnerIds:
-  ## [John Fitzgerald Kennedy](../../families/F1)
-  - F1 
-  ## [Aristotle Socrates Onassis](../../families/F2)
-  - F2
+- families:
+  - [with John Fitzgerald Kennedy](../../families/F1)
+  - [with Aristotle Socrates Onassis](../../families/F2)
