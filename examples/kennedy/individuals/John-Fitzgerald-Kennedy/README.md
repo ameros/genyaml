@@ -1,4 +1,5 @@
 # John Fitzgerald Kennedy
+- image: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/185px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
 - id: I1
 - legalFullName: John Fitzgerald Kennedy
 - normalShortName: John F. Kennedy
@@ -13,4 +14,3 @@
 - partnerIds:
   ## [Jacqueline Bouvier](../../families/F1)
   - F1
-- image: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/185px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
