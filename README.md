@@ -96,4 +96,55 @@ Working comfortably on a family tree is not only a human-readable file, but also
 and place there all particular files with kind of _symlinks_ to be able to traverse the tree (folders) accordingly to relation structure.
 
 ## YAML to MARKDOWN
-While we're here, why not use GitHub with Markdown files to conveniently navigate the tree 🤔
+While we're here, why not use GitHub with Markdown files to conveniently navigate the tree 🤔 From the [About READMEs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes)
+
+> GitHub will recognize and automatically surface your README to repository visitors.
+
+So, if we could make simple transformation of YAML file to the README.md in each folder then we could also make use of Markdown links to refer relative folder READMEs.
+
+Example YAML file:
+
+```yaml
+# John Fitzgerald Kennedy
+id: I1
+legalFullName: John Fitzgerald Kennedy
+normalShortName: John F. Kennedy
+otherKnownNames: [JFK, John Kennedy]
+birth:
+  date: 27 MAY 1917
+  place: Brookline, Massachusetts, U.S.
+death:
+  date: 22 NOV 1963
+  place: Dallas, Texas, U.S.
+  cause: assassination
+objects:
+  - title: John F. Kennedy, photograph in the Oval Office by Cecil Stoughton, White House; Public Domain
+    file: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/370px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg
+    format: jpg
+familyIds:
+  # with Jacqueline Lee Bouvier
+  - F1
+```
+
+could be easily transformed to such simple Markdown:
+
+```markdown
+# John Fitzgerald Kennedy
+- id: I1
+- legalFullName: John Fitzgerald Kennedy
+- normalShortName: John F. Kennedy
+- otherKnownNames: [JFK, John Kennedy]
+- birth:
+  - date: 27 MAY 1917
+  - place: Brookline, Massachusetts, U.S.
+- death:
+  - date: 22 NOV 1963
+  - place: Dallas, Texas, U.S.
+  - cause: assassination
+- objects:
+  - title: John F. Kennedy, photograph in the Oval Office by Cecil Stoughton, White House; Public Domain
+    - file: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/370px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
+    - format: jpg
+- familyIds:
+  - F1 ([with Jacqueline Lee Bouvier](../../families/F1))
+```
