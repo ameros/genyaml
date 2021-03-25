@@ -41,8 +41,7 @@ individuals: # GEDCOM INDI records
     familyIds: 
       - F1
   - id: I3
-    parentsId:
-      - F1
+    parentsId: F1
 families: # GEDCOM FAM records
   - id: F1
     partnerIds: 
@@ -52,12 +51,13 @@ families: # GEDCOM FAM records
       - I3
 ```
 
-| GEDCOM TAG: | replaced with: | YAML type:           | notes: |
-|-------------|----------------|----------------------|--------|
-| FAMS        | familyIds      | list of strings      |        |
-| FAMC        | parentsId      | string               |        |
-| HUSB, WIFE  | partnerIds     | list of strings      |        |
-| CHIL        | childIds       | list of strings      |        |
+| GEDCOM TAG:  | replaced with: | YAML type:           | notes:                                           |
+|--------------|----------------|----------------------|--------------------------------------------------|
+| FAMS         | familyIds      | list of strings      |                                                  |
+| FAMC _{1}_   | parentsId      | string               |                                                  |
+| FAMC _{n>1}_ | parents        | list of dictionaries | for different types like biological and adoption |
+| HUSB, WIFE   | partnerIds     | list of strings      |                                                  |
+| CHIL         | childIds       | list of strings      |                                                  |
 
 #### Plurals for collections
 In the GEDCOM, there is no easy way to recognize if a record is part of a collection or just a single item. There are of course some specifications out there for different versions. But you can't tell it from just looking at the file.
