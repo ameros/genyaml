@@ -13,7 +13,7 @@ Genealogical data, as described by GEDCOM, contains between the others:
 - individual records (INDI)
 - family records (FAM)
 
-linked together by references. Relations are well structured so let's try to keep them the most similar. But let's try to replace abbreviations of [Tags](http://wiki-en.genealogy.net/GEDCOM-Tags) **with real words**.
+linked together by references. Relations are well structured so let's try to keep them the most similar. But let's try to replace abbreviations of [Tags](http://wiki-en.genealogy.net/GEDCOM-Tags) **with real words** e.g.:
 
 | GEDCOM TAG: | replaced with: | YAML type:           | notes: |
 |-------------|----------------|----------------------|--------|
@@ -24,6 +24,7 @@ linked together by references. Relations are well structured so let's try to kee
 | PLAC        | place          | string               |        |
 | TITL        | title          | string               |        |
 | OCCU        | occupation     | string               |        |
+| OBJE        | objects        | list of dictionaries |        |
 
 _...etc_
 
@@ -62,7 +63,11 @@ families: # GEDCOM FAM records
 #### Plurals for collections
 In the GEDCOM, there is no easy way to recognize if a record is part of a collection or just a single item. There are of course some specifications out there for different versions. But you can't tell it from just looking at the file.
 
-I think the good old convention of naming collections with a plural is a way to go. Of course a collection in YAML itself is also visible by `-` or `[]`.
+I think the good old convention of naming collections with a plural is a way to go. Of course a collection in YAML itself is also visible by `-` or `[]` e.g.:
+
+| GEDCOM TAG: | replaced with: | YAML type:           | notes: |
+|-------------|----------------|----------------------|--------|
+| OBJE        | objects        | list of dictionaries |        |
 
 #### Personal Name
 [Personal Name](https://en.wikipedia.org/wiki/Personal_name) is hard thing to model. It's the set of names that the individual person is known. However, it highly depends on cultural context - synonyms, order of parts, their meaning. That's also why there is so many ideas for personal name in GEDCOM and why it still evolves there.
