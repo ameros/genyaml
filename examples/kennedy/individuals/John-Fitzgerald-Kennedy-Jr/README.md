@@ -10,5 +10,4 @@
   - date: 16 JUL 1999
   - place: Atlantic Ocean, off the coast of Martha's Vineyard, Massachusetts, U.S.
   - cause: plane crash
-- parentsId:
-  - [F1](../../families/F1)
+- parentsId: [F1](../../families/F1)
