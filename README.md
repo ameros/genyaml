@@ -24,7 +24,6 @@ linked together by references. Relations are well structured so let's try to kee
 | PLAC        | place          | string               |        |
 | TITL        | title          | string               |        |
 | OCCU        | occupation     | string               |        |
-| OBJE        | objects        | list of dictionaries |        |
 
 _...etc_
 
