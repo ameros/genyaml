@@ -154,3 +154,10 @@ where the rules of transformation are easily visible and clear...
 And _**voilà**_, there we got it - **human-readable** and **well-organized** files representing family tree 🎄
 
 Please check the example starting from [John Fitzgerald Kennedy](https://github.com/ameros/genyaml/tree/main/examples/kennedy/individuals/John-Fitzgerald-Kennedy). 
+
+---
+
+Now, all we need is just simple toolset
+- to convert from YAML to .MD
+- from all YAML files to single one
+- and, maybe still if someone interested, from that one YAML back to GEDCOM :thinking:  
