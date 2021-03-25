@@ -8,5 +8,5 @@
 - death:
   - date: 15 MAR 1975
   - place: Neuilly-sur-Seine, France
-- families:
-  - [with Jacqueline Lee Bouvier](../../families/F2)
+- familyIds:
+  - F2 ([with Jacqueline Lee Bouvier](../../families/F2))

@@ -11,7 +11,7 @@ death:
   date: 19 MAY 1994
   place: Manhattan, New York City, U.S.
   cause: Non-Hodgkin lymphoma
-families:
+familyIds:
   # with John Fitzgerald Kennedy
   - F1
   # with Aristotle Socrates Onassis
