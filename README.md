@@ -38,3 +38,11 @@ families: # GEDCOM FAM records
     childIds: 
       - I3
 ```
+
+#### References
+| GEDCOM TAG: | replaced with: | YAML type:           | notes: |
+|-------------|----------------|----------------------|--------|
+| FAMS        | familyIds      | list of strings      |        |
+| FAMC        | parentsId      | string               |        |
+| HUSB, WIFE  | partnerIds     | list of strings      |        |
+| CHIL        | childIds       | list of strings      |        |
