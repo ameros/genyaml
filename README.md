@@ -85,5 +85,7 @@ I think the good old convention of naming collections with a plural is a way to 
 
 | GEDCOM TAG: | replaced with: | YAML type:           | notes: |
 |-------------|----------------|----------------------|--------|
+| TITL        | titles         | list                 |        |
+| EDU         | educations     | list                 |        |
 | OCCU        | occupations    | list                 |        |
 | EVEN        | events         | list of dictionaries |        |
