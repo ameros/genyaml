@@ -148,3 +148,7 @@ could be easily transformed to such simple Markdown:
 - familyIds:
   - F1 ([with Jacqueline Lee Bouvier](../../families/F1))
 ```
+
+where the rules of transformation are easily visible and clear...
+
+And _**voilà**_, there we got it. Please check the example starting from [John Fitzgerald Kennedy](https://github.com/ameros/genyaml/tree/main/examples/kennedy/individuals/John-Fitzgerald-Kennedy). 🎄
