@@ -1,0 +1,14 @@
+# John Fitzgerald Kennedy Jr.
+- id: I4
+- legalFullName: John Fitzgerald Kennedy Jr.
+- normalShortName: John F. Kennedy Jr.
+- otherKnownNames: [JFK Jr., John Kennedy Jr., John-John]
+- birth:
+  - date: 25 NOV 1960
+  - place: Washington, D.C., U.S.
+- death:
+  - date: 16 JUL 1999
+  - place: Atlantic Ocean, off the coast of Martha's Vineyard, Massachusetts, U.S.
+  - cause: plane crash
+- parentsId:
+  - [F1](../../families/F1)
