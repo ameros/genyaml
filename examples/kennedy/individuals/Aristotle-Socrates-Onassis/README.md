@@ -1,13 +1,13 @@
-# Jacqueline Kennedy Onassis
-- id: I2
-- legalFullName: Jacqueline Kennedy Onassis
-- normalShortName: Jacqueline Onassis
-- otherKnownNames: [Jacqueline Kennedy, Jacqueline Onassis]
+# Aristotle Socrates Onassis
+- id: I3
+- legalFullName: Aristotle Socrates Onassis
+- normalShortName: Aristotle Onassis
 - birth:
-  - date: 28 JUL 1929
-  - place: Southampton, New York, U.S.
-  - legalFullName: Jacqueline Lee Bouvier
+  - date: 20 JAN 1906
+  - place: Karataş, Izmir, Ottoman Empire
 - death:
-  - date: 19 MAY 1994
-  - place: Manhattan, New York City, U.S.
-  - cause: Non-Hodgkin lymphoma
+  - date: 15 MAR 1975
+  - place: Neuilly-sur-Seine, France
+- partnerIds:
+  ## [Jacqueline Bouvier](../../families/F2)
+  - F2
