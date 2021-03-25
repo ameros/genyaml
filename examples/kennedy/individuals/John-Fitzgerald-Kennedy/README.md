@@ -14,5 +14,5 @@
   ## [Jacqueline Bouvier](../../families/F1)
   - F1
 - objects:
-  - file: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/185px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
-  - file: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/185px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
+  - ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/185px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
+  - ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/185px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
