@@ -1,6 +1,6 @@
 # John Fitzgerald Kennedy
 - image:
-  - file: ![](https://upload.wikimedia.org/wikipedia/commons/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
+  - file: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/370px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
   - format: jpg
   - title: John F. Kennedy, photograph in the Oval Office by Cecil Stoughton, White House; Public Domain
 - id: I1
