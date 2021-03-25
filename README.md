@@ -1,6 +1,6 @@
 # genyaml
 
-## GEDCOM to yaml
+## GEDCOM to YAML
 
 ### WHY
 [GEDCOM](https://en.wikipedia.org/wiki/GEDCOM) is now the de facto standard for genealogical data. However, beyond its limitations, it is full of shortcuts. Well, its purpose was to exchange genealogical data between software.
@@ -89,3 +89,6 @@ I think the good old convention of naming collections with a plural is a way to 
 | EDU         | educations     | list                 |        |
 | OCCU        | occupations    | list                 |        |
 | EVEN        | events         | list of dictionaries |        |
+
+## Files to folders
+## YAML to MARKDOWN
