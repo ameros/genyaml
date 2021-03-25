@@ -151,4 +151,6 @@ could be easily transformed to such simple Markdown:
 
 where the rules of transformation are easily visible and clear...
 
-And _**voilà**_, there we got it. Please check the example starting from [John Fitzgerald Kennedy](https://github.com/ameros/genyaml/tree/main/examples/kennedy/individuals/John-Fitzgerald-Kennedy). 🎄
+And _**voilà**_, there we got it 🎉
+
+Please check the example starting from [John Fitzgerald Kennedy](https://github.com/ameros/genyaml/tree/main/examples/kennedy/individuals/John-Fitzgerald-Kennedy). 🎄 Happy walk ! 
