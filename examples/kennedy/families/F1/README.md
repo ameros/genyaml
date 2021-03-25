@@ -5,3 +5,5 @@
 - partnerIds:
   - I1 ([John Fitzgerald Kennedy](../../individuals/John-Fitzgerald-Kennedy))
   - I2 ([Jacqueline Lee Bouvier](../../individuals/Jacqueline-Lee-Bouvier))
+- childrenIds:
+  - I4 ([John Fitzgerald Kennedy Jr](../../individuals/John-Fitzgerald-Kennedy-Jr))
