@@ -90,5 +90,5 @@ I think the good old convention of naming collections with a plural is a way to 
 | OCCU        | occupations    | list                 |        |
 | EVEN        | events         | list of dictionaries |        |
 
-## Files to folders
+## Store in folders
 ## YAML to MARKDOWN
