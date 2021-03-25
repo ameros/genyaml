@@ -161,4 +161,3 @@ Now, all we need is just simple toolset
 - to convert from YAML to Markdown
 - from all YAML files to single one
 - and, maybe still if someone interested, from that one YAML back to GEDCOM 🤔
-- and from GEDCOM to YAML (?)
