@@ -93,6 +93,6 @@ Working comfortably on a family tree is not only a human-readable file, but also
 - individuals/{person-name-unique}
 - families/{family-id}
 
-and place there all particular files with kind of _symlinks_ to be able to traverse the tree accordingly to relation structure.
+and place there all particular files with kind of _symlinks_ to be able to traverse the tree (folders) accordingly to relation structure.
 
 ## YAML to MARKDOWN
