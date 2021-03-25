@@ -58,8 +58,19 @@ families: # GEDCOM FAM records
 | HUSB, WIFE  | partnerIds     | list of strings      |        |
 | CHIL        | childIds       | list of strings      |        |
 
-#### Further considerations
-##### Personal Name
+#### Plurals for collections
+In the GEDCOM, there is no easy way to recognize if a record is part of a collection or just a single item. There are of course some specifications out there for different versions. But you can't tell it from just looking at the file.
+
+I think the good old convention of naming collections with a plural is a way to go. Of course a collection in YAML itself is also visible by `-` or `[]`.
+
+| GEDCOM TAG: | replaced with: | YAML type:           | notes: |
+|-------------|----------------|----------------------|--------|
+| TITL        | titles         | list                 |        |
+| EDU         | educations     | list                 |        |
+| OCCU        | occupations    | list                 |        |
+| EVEN        | events         | list of dictionaries |        |
+
+#### Personal Name
 [Personal Name](https://en.wikipedia.org/wiki/Personal_name) is hard thing to model. It's the set of names that the individual person is known. However, it highly depends on cultural context - synonyms, order of parts, their meaning. That's also why there is so many ideas for personal name in GEDCOM and why it still evolves there.
 
 In GEDCOM specifications NAME can be a string / text value (with surname between slashes) or a list of such values or a list of objects. When in [5.5.1 version](https://www.tamurajones.net/GEDCOM/GEDCOM551.pdf) they can be distinguished by TYPE (one of aka | birth | immigrant | maiden | married | user defined), it is no more possible to do it in [5.5.5 version](https://www.tamurajones.net/GEDCOM/GEDCOM55Plus.pdf). However still both define NAME with number of possibilities (pieces) like NPFX, GIVN, NICK, SPFX, SURN and NSFX. 
@@ -77,18 +88,6 @@ otherKnownNames: [The Artist, Joey Coco, Jamie Starr]
 | NAME        | legalFullName   | string               |        |
 |             | normalShortName | string               |        |
 |             | otherKnownNames | list of strings      |        |
-
-##### Plurals for collections
-In the GEDCOM, there is no easy way to recognize if a record is part of a collection or just a single item. There are of course some specifications out there for different versions. But you can't tell it from just looking at the file.
-
-I think the good old convention of naming collections with a plural is a way to go. Of course a collection in YAML itself is also visible by `-` or `[]`.
-
-| GEDCOM TAG: | replaced with: | YAML type:           | notes: |
-|-------------|----------------|----------------------|--------|
-| TITL        | titles         | list                 |        |
-| EDU         | educations     | list                 |        |
-| OCCU        | occupations    | list                 |        |
-| EVEN        | events         | list of dictionaries |        |
 
 ## Store in folders
 ## YAML to MARKDOWN
