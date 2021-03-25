@@ -1,5 +1,8 @@
 # John Fitzgerald Kennedy
-- image: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/185px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
+- image:
+  - file: ![](https://upload.wikimedia.org/wikipedia/commons/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
+  - format: jpg
+  - title: John F. Kennedy, photograph in the Oval Office by Cecil Stoughton, White House; Public Domain
 - id: I1
 - legalFullName: John Fitzgerald Kennedy
 - normalShortName: John F. Kennedy
