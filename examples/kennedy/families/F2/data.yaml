@@ -1,9 +1,8 @@
-id: F1
+id: F2
 marriage:
-  date: 12 SEP 1953
-  place: Newport, Rhode Island
+  date: 1968
 partnerIds:
-  ## [Jacqueline Bouvier](../individuals/John-Fitzgerald-Kennedy)
-  - I1
+  ## [Aristotle Socrates Onassis](../individuals/Aristotle-Socrates-Onassis)
+  - I3
   ## [Jacqueline Bouvier](../individuals/Jacqueline-Bouvier)
   - I2
