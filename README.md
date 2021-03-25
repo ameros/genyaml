@@ -15,6 +15,17 @@ Genealogical data, as described by GEDCOM, contains between the others:
 
 linked together by references. Relations are well structured so let's try to keep them the most similar. But let's try to replace abbreviations of [Tags](http://wiki-en.genealogy.net/GEDCOM-Tags) with real words.
 
+| GEDCOM TAG: | replaced with: | YAML type:           | notes: |
+|-------------|----------------|----------------------|--------|
+| SEX         | gender         | string               |        |
+| M           | male           |                      |        |
+| F           | female         |                      |        |
+| BIRT        | birth          | dictionary           |        |
+| DEAT        | death          | dictionary           |        |
+| BURI        | burial         | dictionary           |        |
+| MARR        | marriage       | dictionary           |        |
+| PLAC        | place          | string               |        |
+
 ### HOW
 #### Relations
 What if the family tree was presented in the [YAML](https://en.wikipedia.org/wiki/YAML) file. The simplest could look like this:
@@ -61,7 +72,18 @@ normalShortName: Prince
 otherKnownNames: [The Artist, Joey Coco, Jamie Starr]
 ```
 
+| GEDCOM TAG: | replaced with:  | YAML type:           | notes: |
+|-------------|-----------------|----------------------|--------|
+| NAME        | legalFullName   | string               |        |
+|             | normalShortName | string               |        |
+|             | otherKnownNames | list of strings      |        |
+
 ##### Plurals for collections
 In the GEDCOM, there is no easy way to recognize if a record is part of a collection or just a single item. There are of course some specifications out there for different versions. But you can't tell it from just looking at the file.
 
 I think the good old convention of naming collections with a plural is a way to go. Of course a collection in YAML itself is also visible by `-` or `[]`.
+
+| GEDCOM TAG: | replaced with: | YAML type:           | notes: |
+|-------------|----------------|----------------------|--------|
+| OCCU        | occupations    | list                 |        |
+| EVEN        | events         | list of dictionaries |        |
