@@ -2,7 +2,5 @@
 - marriage:
   - date: 1968
 - partnerIds:
-  ## [Aristotle Socrates Onassis](../../individuals/Aristotle-Socrates-Onassis)
-  - I3
-  ## [Jacqueline Lee Bouvier](../../individuals/Jacqueline-Lee-Bouvier)
-  - I2
+  - I3: [Aristotle Socrates Onassis](../../individuals/Aristotle-Socrates-Onassis)
+  - I2: [Jacqueline Lee Bouvier](../../individuals/Jacqueline-Lee-Bouvier)
