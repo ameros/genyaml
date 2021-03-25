@@ -12,7 +12,7 @@
   - place: Manhattan, New York City, U.S.
   - cause: Non-Hodgkin lymphoma
 - partnerIds:
-  
-  - F1 ## [John Fitzgerald Kennedy](../../families/F1)
+  ## [John Fitzgerald Kennedy](../../families/F1)
+  - F1 
   ## [Aristotle Socrates Onassis](../../families/F2)
   - F2
