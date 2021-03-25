@@ -13,6 +13,8 @@
   - date: 22 NOV 1963
   - place: Dallas, Texas, U.S.
   - cause: assassination
+- burial:
+  - place: Arlington National Cemetery
 - objects:
   - title: John F. Kennedy, photograph in the Oval Office by Cecil Stoughton, White House; Public Domain
     - file: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/370px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
