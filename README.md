@@ -88,4 +88,5 @@ otherKnownNames: [The Artist, Joey Coco, Jamie Starr]
 |             | otherKnownNames | list of strings      |        |
 
 ## Store in folders
+Working comfortably on a family tree is not only a human-readable file, but also a well-organized storage of data. We could use a specific folder structure for this. In each such folder, we could store a piece of data about a specific person or family. Simple tooling would make it possible to produce one file from all folders.
 ## YAML to MARKDOWN
