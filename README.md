@@ -63,15 +63,6 @@ In the GEDCOM, there is no easy way to recognize if a record is part of a collec
 
 I think the good old convention of naming collections with a plural is a way to go. Of course a collection in YAML itself is also visible by `-` or `[]`.
 
-| GEDCOM TAG: | replaced with: | YAML type:           | notes: |
-|-------------|----------------|----------------------|--------|
-| TITL        | titles         | list                 |        |
-| EDU         | educations     | list                 |        |
-| OCCU        | occupations    | list                 |        |
-| EVEN        | events         | list of dictionaries |        |
-
-Moreover, having this convention would enable us to move from singular to plural if necessary, while maintaining backward compatibility _(no type guessing between the versions)_.
-
 #### Personal Name
 [Personal Name](https://en.wikipedia.org/wiki/Personal_name) is hard thing to model. It's the set of names that the individual person is known. However, it highly depends on cultural context - synonyms, order of parts, their meaning. That's also why there is so many ideas for personal name in GEDCOM and why it still evolves there.
 
