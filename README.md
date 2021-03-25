@@ -5,7 +5,7 @@
 ### Why
 [GEDCOM](https://en.wikipedia.org/wiki/GEDCOM) is now the de facto standard for genealogical data. However, beyond its limitations, it is full of shortcuts. Well, its purpose was to exchange genealogical data between software.
 
-How about making it simple and human-readable so that anyone (also software) can write and read it.
+How about making it simple and **human-readable** so that anyone (also software) can write and read it.
 
 ### What
 Genealogical data, as described by GEDCOM, contains between the others:
@@ -13,7 +13,7 @@ Genealogical data, as described by GEDCOM, contains between the others:
 - individual records (INDI)
 - family records (FAM)
 
-linked together by references. Relations are well structured so let's try to keep them the most similar. But let's try to replace abbreviations of [Tags](http://wiki-en.genealogy.net/GEDCOM-Tags) with real words.
+linked together by references. Relations are well structured so let's try to keep them the most similar. But let's try to replace abbreviations of [Tags](http://wiki-en.genealogy.net/GEDCOM-Tags) **with real words**.
 
 | GEDCOM TAG: | replaced with: | YAML type:           | notes: |
 |-------------|----------------|----------------------|--------|
@@ -29,7 +29,7 @@ _...etc_
 
 ### How
 #### Relations
-What if the family tree was presented in the [YAML](https://en.wikipedia.org/wiki/YAML) file. The simplest could look like this:
+What if the family tree was presented in the **[YAML](https://en.wikipedia.org/wiki/YAML)** file. The simplest could look like this:
 
 ```yaml
 # Yes, YAML allows us to comment
