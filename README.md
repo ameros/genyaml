@@ -90,8 +90,8 @@ otherKnownNames: [The Artist, Joey Coco, Jamie Starr]
 ## Store in folders
 Working comfortably on a family tree is not only a human-readable file, but also a well-organized storage of data. We could use a specific folder structure for this. In each such folder, we could store a piece of data about a specific person or family. Simple tooling would make it possible to produce one file from all folders. The proposal is to reflect the relations in such folders per family tree:
 
-- individuals/{person-name-unique}
-- families/{family-id}
+- individuals/{person-name-unique}/
+- families/{family-id}/
 
 and place there all particular files with kind of _symlinks_ to be able to traverse the tree (folders) accordingly to relation structure.
 
