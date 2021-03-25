@@ -3,6 +3,9 @@
 - legalFullName: John Fitzgerald Kennedy
 - normalShortName: John F. Kennedy
 - otherKnownNames: [JFK, John Kennedy]
+- titles: [35th President of the United States]
+- occupations: [politician]
+- educations: [Harvard University]
 - birth:
   - date: 27 MAY 1917
   - place: Brookline, Massachusetts, U.S.
