@@ -17,14 +17,15 @@ linked together by references. Relations are well structured so let's try to kee
 
 | GEDCOM TAG: | replaced with: | YAML type:           | notes: |
 |-------------|----------------|----------------------|--------|
-| SEX         | gender         | string               |        |
-| M           | male           |                      |        |
-| F           | female         |                      |        |
 | BIRT        | birth          | dictionary           |        |
 | DEAT        | death          | dictionary           |        |
 | BURI        | burial         | dictionary           |        |
 | MARR        | marriage       | dictionary           |        |
 | PLAC        | place          | string               |        |
+| TITL        | title          | string               |        |
+| OCCU        | occupation     | string               |        |
+
+_...etc_
 
 ### How
 #### Relations
