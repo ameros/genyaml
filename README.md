@@ -62,7 +62,7 @@ families: # GEDCOM FAM records
 #### Plurals for collections
 In the GEDCOM, there is no easy way to recognize if a record is part of a collection or just a single item. There are of course some specifications out there for different versions. But you can't tell it from just looking at the file.
 
-I think the good old convention of naming collections with a plural is a way to go. Of course a collection in YAML itself is also visible by `-` or `[]` e.g.:
+I think the good old convention of naming collections with a plural is a way to go _(of course a collection in YAML itself is also visible by `-` or `[]`)_ e.g.:
 
 | GEDCOM TAG: | replaced with: | YAML type:           | notes: |
 |-------------|----------------|----------------------|--------|
