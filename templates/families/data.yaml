@@ -6,7 +6,7 @@ partnerIds:
   # {partner name}
   - I{n}
   # {partner name}
-  - I{m}
+  - I{n}
 childIds:
   # {child name}
-  - I{k}
+  - I{n}

@@ -2,8 +2,8 @@
 id: I{n}
 legalFullName: {legal full name}
 normalShortName: {normal short name}
-otherKnownNames: [{aka-1}, {aka-n}]
-titles: [{title-1}, {title-n}]
+otherKnownNames: [{aka-1}, {aka-2}]
+titles: [{title-1}, {title-2}]
 occupations: [{occupation-1}, {occupation-2}]
 educations: [{education-1}, {education-2}]
 birth:
