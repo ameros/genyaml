@@ -22,8 +22,6 @@ linked together by references. Relations are well structured so let's try to kee
 | BURI        | burial         | dictionary           |        |
 | MARR        | marriage       | dictionary           |        |
 | PLAC        | place          | string               |        |
-| TITL        | title          | string               |        |
-| OCCU        | occupation     | string               |        |
 
 _...etc_
 
@@ -67,6 +65,9 @@ I think the good old convention of naming collections with a plural is a way to 
 | GEDCOM TAG: | replaced with: | YAML type:           | notes: |
 |-------------|----------------|----------------------|--------|
 | OBJE        | objects        | list of dictionaries |        |
+| TITL        | titles         | list of strings      |        |
+| OCCU        | occupations    | list of strings      |        |
+| EDU         | educations     | list of strings      |        |
 
 #### Personal Name
 [Personal Name](https://en.wikipedia.org/wiki/Personal_name) is hard thing to model. It's the set of names that the individual person is known. However, it highly depends on cultural context - synonyms, order of parts, their meaning. That's also why there is so many ideas for personal name in GEDCOM and why it still evolves there.
@@ -119,6 +120,9 @@ id: I1
 legalFullName: John Fitzgerald Kennedy
 normalShortName: John F. Kennedy
 otherKnownNames: [JFK, John Kennedy]
+titles: [35th President of the United States, Senator, Congressman]
+occupations: [politician]
+educations: [Harvard University]
 birth:
   date: 27 MAY 1917
   place: Brookline, Massachusetts, U.S.
@@ -126,6 +130,8 @@ death:
   date: 22 NOV 1963
   place: Dallas, Texas, U.S.
   cause: assassination
+burial:
+  place: Arlington National Cemetery
 objects:
   - title: John F. Kennedy, photograph in the Oval Office by Cecil Stoughton, White House; Public Domain
     file: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/370px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg
@@ -142,7 +148,10 @@ could be easily transformed to such simple Markdown:
 - id: I1
 - legalFullName: John Fitzgerald Kennedy
 - normalShortName: John F. Kennedy
-- otherKnownNames: [JFK, John Kennedy]
+- otherKnownNames: JFK, John Kennedy
+- titles: 35th President of the United States, Senator, Congressman
+- occupations: politician
+- educations: Harvard University
 - birth:
   - date: 27 MAY 1917
   - place: Brookline, Massachusetts, U.S.
@@ -150,6 +159,8 @@ could be easily transformed to such simple Markdown:
   - date: 22 NOV 1963
   - place: Dallas, Texas, U.S.
   - cause: assassination
+- burial:
+  - place: Arlington National Cemetery
 - objects:
   - title: John F. Kennedy, photograph in the Oval Office by Cecil Stoughton, White House; Public Domain
     - file: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/370px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)

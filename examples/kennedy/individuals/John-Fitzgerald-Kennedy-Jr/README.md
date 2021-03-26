@@ -2,7 +2,7 @@
 - id: I4
 - legalFullName: John Fitzgerald Kennedy Jr.
 - normalShortName: John F. Kennedy Jr.
-- otherKnownNames: [JFK Jr., John Kennedy Jr., John-John]
+- otherKnownNames: JFK Jr., John Kennedy Jr., John-John
 - birth:
   - date: 25 NOV 1960
   - place: Washington, D.C., U.S.

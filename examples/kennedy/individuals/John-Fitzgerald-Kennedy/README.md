@@ -2,10 +2,10 @@
 - id: I1
 - legalFullName: John Fitzgerald Kennedy
 - normalShortName: John F. Kennedy
-- otherKnownNames: [JFK, John Kennedy]
-- titles: [35th President of the United States, United States Senator, Member of the U.S. House of Representatives]
-- occupations: [politician]
-- educations: [Harvard University]
+- otherKnownNames: JFK, John Kennedy
+- titles: 35th President of the United States, Senator, Congressman
+- occupations: politician
+- educations: Harvard University
 - birth:
   - date: 27 MAY 1917
   - place: Brookline, Massachusetts, U.S.
