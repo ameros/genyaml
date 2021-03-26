@@ -175,6 +175,10 @@ And _**voilà**_, there we got it - **human-readable** and **well-organized** fi
 
 Please check the example starting from [John Fitzgerald Kennedy](https://github.com/ameros/genyaml/tree/main/examples/kennedy/individuals/John-Fitzgerald-Kennedy). 
 
+There are also some templates already prepared for:
+- [individuals](templates/individuals/)
+- [families](templates/families/)
+
 ---
 
 Now, all we need is just simple toolset
