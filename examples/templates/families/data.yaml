@@ -1,0 +1,12 @@
+id: F{n}
+marriage:
+  date: {dd} {mth} {yyyy}
+  place: {place}
+partnerIds:
+  # {partner name}
+  - I{n}
+  # {partner name}
+  - I{m}
+childIds:
+  # {child name}
+  - I{k}
