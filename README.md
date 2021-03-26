@@ -189,3 +189,6 @@ Now, all we need is just simple toolset
 ## TBD
 
  Of course, there are many more in the GEDCOM standard (TAGS, type of RECORDS) to which the above proposal requires adjustment. Still, the base seems to be solid, and this adjustment should be easy.
+ 
+## Feedback
+Any feedback is appreciated  https://github.com/ameros/genyaml/discussions
