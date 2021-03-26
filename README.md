@@ -185,3 +185,7 @@ Now, all we need is just simple toolset
 - to convert from YAML to Markdown
 - from all YAML files to single one
 - and, maybe still if someone interested, from that one YAML back to GEDCOM 🤔
+
+## TBD
+
+ Of course, there are many more in the GEDCOM standard (TAGS, type of RECORDS) to which the above proposal requires adjustment. Still, the base seems to be solid, and this adjustment should be easy.
