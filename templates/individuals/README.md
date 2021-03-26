@@ -1,0 +1,25 @@
+# Person Name
+- id: I{n}
+- legalFullName: {legal full name}
+- normalShortName: {normal short name}
+- otherKnownNames: {aka-1}, {aka-2}
+- titles: {title-1}, {title-2}
+- occupations: {occupation-1}, {occupation-2}
+- educations: {education-1}, {education-2}
+- birth:
+  - date: {dd} {mth} {yyyy}
+  - place: {place}
+- death:
+  - date: {dd} {mth} {yyyy}
+  - place: {place}
+  - cause: {cause}
+- burial:
+  - date: {dd} {mth} {yyyy}
+  - place: {place}
+- objects:
+  - file: {url to file}
+    - title: {descriptive title}
+    - format: {format of the multimedia}
+- familyIds:
+  - F{n} ([with {partner name}](../../families/F{n}))
+- parentsId: F{n}

@@ -1,0 +1,9 @@
+- id: F{n}
+- marriage:
+  - date: {dd} {mth} {yyyy}
+  - place: {place}
+- partnerIds:
+  - I{n} [{1st partner name}](../../individuals/{1st partner name})
+  - I{n} [{2nd partner name}](../../individuals/{2nd partner name})
+- childIds:
+  - I{n}  [{child name}](../../individuals/{child name})

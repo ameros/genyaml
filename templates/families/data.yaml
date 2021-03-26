@@ -3,9 +3,9 @@ marriage:
   date: {dd} {mth} {yyyy}
   place: {place}
 partnerIds:
-  # {partner name}
+  # {1st partner name}
   - I{n}
-  # {partner name}
+  # {2nd partner name}
   - I{n}
 childIds:
   # {child name}
