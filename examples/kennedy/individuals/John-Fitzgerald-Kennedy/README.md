@@ -26,5 +26,18 @@
   - value: promotion to lieutenant
     - type: promotion
     - date: 8 OCT 1943
+- facts:
+  - value: Navy and Marine Corps Medal
+    - type: MilitaryAward
+  - value: Purple Heart
+    - type: MilitaryAward
+  - value: American Defense Service Medal
+    - type: MilitaryAward
+  - value: American Campaign Medal
+    - type: MilitaryAward
+  - value: Asiatic-Pacific Campaign Medal (with 3 service stars)
+    - type: MilitaryAward
+  - value: World War II Victory
+    - type: MilitaryAward
 - familyIds:
   - F1 ([with Jacqueline Lee Bouvier](../../families/F1))
