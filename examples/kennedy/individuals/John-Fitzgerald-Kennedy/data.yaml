@@ -23,6 +23,10 @@ objects:
     title: John F. Kennedy, photograph in the Oval Office by Cecil Stoughton, White House; Public Domain
     format: jpg
 events:
+  - value: sworn in as the 35th president
+    type: swearing-in
+    date: 20 JAN 1961
+    age: 43
   - value: promotion to lieutenant
     type: promotion
     date: 8 OCT 1943
