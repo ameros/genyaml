@@ -30,6 +30,7 @@
   - value: promotion to lieutenant
     - type: MilitaryService
     - date: 8 OCT 1943
+    - age: 26
 - facts:
   - value: Navy and Marine Corps Medal
     - type: MilitaryAward
