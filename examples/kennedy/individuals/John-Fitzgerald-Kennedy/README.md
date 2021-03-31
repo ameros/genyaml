@@ -24,11 +24,11 @@
     - format: jpg
 - events:
   - value: sworn in as the 35th president
-    - type: swearing-in
+    - type: Occupation
     - date: 20 JAN 1961
     - age: 43
   - value: promotion to lieutenant
-    - type: promotion
+    - type: MilitaryService
     - date: 8 OCT 1943
 - facts:
   - value: Navy and Marine Corps Medal
