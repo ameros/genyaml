@@ -1,5 +1,6 @@
 # John Fitzgerald Kennedy Jr.
 - id: I4
+- gender: male
 - legalFullName: John Fitzgerald Kennedy Jr.
 - normalShortName: John F. Kennedy Jr.
 - otherKnownNames: JFK Jr., John Kennedy Jr., John-John

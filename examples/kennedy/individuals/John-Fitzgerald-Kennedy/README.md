@@ -1,5 +1,6 @@
 # John Fitzgerald Kennedy
 - id: I1
+- gender: male
 - legalFullName: John Fitzgerald Kennedy
 - normalShortName: John F. Kennedy
 - otherKnownNames: JFK, John Kennedy

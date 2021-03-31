@@ -1,5 +1,6 @@
 # Aristotle Socrates Onassis
 - id: I3
+- gender: male
 - legalFullName: Aristotle Socrates Onassis
 - normalShortName: Aristotle Onassis
 - birth:
