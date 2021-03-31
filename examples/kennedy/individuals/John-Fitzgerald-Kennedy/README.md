@@ -9,6 +9,9 @@
 - birth:
   - date: 27 MAY 1917
   - place: Brookline, Massachusetts, U.S.
+- baptism:
+  - date: 19 JUN 1917
+  - place: St. Aidan's Churchm, Brookline, Massachusetts
 - death:
   - date: 22 NOV 1963
   - place: Dallas, Texas, U.S.
