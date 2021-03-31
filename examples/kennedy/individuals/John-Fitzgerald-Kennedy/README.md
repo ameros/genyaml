@@ -3,7 +3,7 @@
 - legalFullName: John Fitzgerald Kennedy
 - normalShortName: John F. Kennedy
 - otherKnownNames: JFK, John Kennedy
-- titles: 35th President of the United States, Senator, Congressman
+- titles: 35th President of the United States, Senator, Congressman, Lieutenant
 - occupations: politician
 - educations: Harvard University
 - birth:
@@ -22,5 +22,9 @@
   - file: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/370px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg)
     - title: John F. Kennedy, photograph in the Oval Office by Cecil Stoughton, White House; Public Domain
     - format: jpg
+- events:
+  - value: promotion to lieutenant
+    - type: promotion
+    - date: 8 OCT 1943
 - familyIds:
   - F1 ([with Jacqueline Lee Bouvier](../../families/F1))
