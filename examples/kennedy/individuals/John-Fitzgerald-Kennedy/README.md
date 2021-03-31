@@ -1,7 +1,10 @@
 # John Fitzgerald Kennedy
 - id: I1
+---
 - legalFullName: John Fitzgerald Kennedy
+--- 
 - normalShortName: John F. Kennedy
+---
 - otherKnownNames: JFK, John Kennedy
 - titles: 35th President of the United States, Senator, Congressman
 - occupations: politician
