@@ -1,5 +1,6 @@
 # Person Name
 id: I{n}
+gender: {gender}
 legalFullName: {legal full name}
 normalShortName: {normal short name}
 otherKnownNames: [{aka-1}, {aka-2}]
