@@ -1,0 +1,36 @@
+# William Jefferson Blythe III Clinton
+id: I1
+gender: male
+legalFullName: William Jefferson Clinton
+normalShortName: Bill Clinton
+otherKnownNames: [William Clinton]
+titles: [42nd President of the United States, Governor of Arkansas]
+occupations: [lawyer, politician, professor, author]
+educations: [Georgetown University (BS), University College Oxford (attended), Yale University (JD)]
+birth:
+  date: 19 AUG 1946
+  place: Hope, Arkansas, U.S.
+  legalFullName: William Jefferson Blythe III
+baptism:
+  date: 1956
+  place: Park Place Baptist Church, Hot Springs, Arkansas
+objects:
+  - file: ttps://upload.wikimedia.org/wikipedia/commons/d/d3/Bill_Clinton.jpg
+    title: Bill Clinton, official White House photo by Bob McNeely, White House; Public Domain
+    format: jpg
+events:
+  - value: sworn in as the 42nd president
+    type: Occupation
+    date: 20 JAN 1993
+    age: 46
+  - value: second inauguration as president
+    type: Occupation
+    date: 20 JAN 1997
+    age: 50
+facts:
+  - value: adopted stepfather's surname Clinton
+    type: Name
+    age: 15
+familyIds:
+  # with Hillary Rodham
+  - F1
