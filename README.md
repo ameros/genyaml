@@ -13,7 +13,12 @@ Genealogical data, as described by GEDCOM, contains between the others:
 - individual records (INDI)
 - family records (FAM)
 
-linked together by references. Relations are well structured so let's try to keep them the most similar. But let's try to replace abbreviations of [Tags](http://wiki-en.genealogy.net/GEDCOM-Tags) **with real words** e.g.:
+linked together by references.
+![](https://docs.google.com/drawings/d/e/2PACX-1vRe0fpGo0MYDqlbQT1aQqYZOCNLF4UK9bWG6jLMIOQG3uW9v_wvfLAXPUD9HcPh4Tq4SgyWM33t4wPH/pub?w=958&h=339)
+Relations are well structured so let's try to keep them the most similar. 
+
+### How
+Let's start with replacing abbreviations of [Tags](http://wiki-en.genealogy.net/GEDCOM-Tags) **with real words** e.g.:
 
 | GEDCOM TAG: | replaced with: | YAML type:           | notes: |
 |-------------|----------------|----------------------|--------|
@@ -24,8 +29,6 @@ linked together by references. Relations are well structured so let's try to kee
 | PLAC        | place          | string               |        |
 
 _...etc_
-
-### How
 #### Relations
 What if the family tree was presented in the **[YAML](https://en.wikipedia.org/wiki/YAML)** file. The simplest could look like this:
 
