@@ -192,6 +192,9 @@ Now, all we need is just simple toolset
 ## TBD
 
  Of course, there are many more in the GEDCOM standard (TAGS, type of RECORDS) to which the above proposal requires adjustment. Still, the base seems to be solid, and this adjustment should be easy.
+
+## Google Sheets Template
+Here comes something additional. I've just created [Google Family Tree Template](https://docs.google.com/spreadsheets/d/1Mgh86Fz51c6W2l5oUPLssexaeVqemhB1xN-zIzIToF4/edit?usp=sharing) that allows to collect GEDCOM-style data as linked sheets. You can walk it through by clicking links to parents, marriages and children. Such complete view on family tree members might be sometimes helpful and convenient.
  
 ## Feedback
 Any feedback is appreciated  https://github.com/ameros/genyaml/discussions
