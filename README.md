@@ -198,3 +198,8 @@ Here comes something additional. I've just created [Google Family Tree Template]
  
 ## Feedback
 Any feedback is appreciated  https://github.com/ameros/genyaml/discussions
+
+_____
+This proposal is listed @ https://www.cyndislist.com/gedcom/gedcom-software/
+
+http://www.cyndislist.com/create-a-link-to-cyndis-list/
